@@ -76,4 +76,4 @@
     ```
   
 ### 구현 화면
-<img src="starbucks_login.png" alt="text" width="150"/>
+<img src="starbucks_login.png" alt="text" width="200"/>
