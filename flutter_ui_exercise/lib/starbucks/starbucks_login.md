@@ -76,4 +76,4 @@
     ```
   
 ### 구현 화면
-![alt text](starbucks_login.png)
+<img src="starbucks_login.png" alt="text" width="150"/>

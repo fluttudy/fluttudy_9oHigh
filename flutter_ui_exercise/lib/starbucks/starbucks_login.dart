@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class StartbucksApp extends StatelessWidget {
-  const StartbucksApp({super.key});
+class StarbucksApp extends StatelessWidget {
+  const StarbucksApp({super.key});
 
   @override
   Widget build(BuildContext context) {
