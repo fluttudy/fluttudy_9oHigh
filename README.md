@@ -11,4 +11,5 @@
 ## 분류
 
 ### Starbucks
-* [[2024.9.3] 로그인 화면](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_ui_exercise/lib/starbucks/starbucks_login.md)
+* [[2024.9.3] 로그인 화면](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_ui_exercise/lib/starbucks/documents/login/starbucks_login.md)
+* [[2024.9.4] 회원가입 화면(1)](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_ui_exercise/lib/starbucks/documents/singup/starbucks_singup_auth.md)
