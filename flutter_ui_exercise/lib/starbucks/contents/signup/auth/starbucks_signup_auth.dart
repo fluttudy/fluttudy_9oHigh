@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/auth_link.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/nav_indicator.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/account/starbucks_signup_account.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/auth_link.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/nav_indicator.dart';
 
 class StarbucksSignupAuth extends StatefulWidget {
   const StarbucksSignupAuth({super.key});
@@ -238,7 +239,13 @@ class StarbucksSignupAuthState extends State<StarbucksSignupAuth> {
                       borderRadius: BorderRadius.all(Radius.circular(30)),
                     ),
                     child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) =>
+                                      const StarbucksSignupAccount()));
+                        },
                         child: const Text(
                           '다음',
                           style: TextStyle(
