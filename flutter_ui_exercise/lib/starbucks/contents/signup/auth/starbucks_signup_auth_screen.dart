@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/account/starbucks_signup_account.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/account/starbucks_signup_account_screen.dart';
 import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/auth_link.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/nav_indicator.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/common/nav_indicator.dart';
 
 class StarbucksSignupAuth extends StatefulWidget {
   const StarbucksSignupAuth({super.key});

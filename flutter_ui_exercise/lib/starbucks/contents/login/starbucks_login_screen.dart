@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/starbucks_signup_auth.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/home/home_screen.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/starbucks_signup_auth_screen.dart';
 
 class StarbucksApp extends StatelessWidget {
   const StarbucksApp({super.key});
@@ -199,7 +200,13 @@ class StarbucksLoginState extends State<StarbucksLogin> {
                   borderRadius: BorderRadius.all(Radius.circular(30)),
                 ),
                 child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) {
+                          return const HomeScreen();
+                        },
+                      ));
+                    },
                     child: const Text(
                       '로그인하기',
                       style: TextStyle(
