@@ -11,7 +11,6 @@ class CuponListScreen extends StatefulWidget {
 class _CuponListScreenState extends State<CuponListScreen>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
-  final bool _hasCupon = false;
 
   @override
   void initState() {
