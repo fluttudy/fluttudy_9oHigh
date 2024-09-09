@@ -126,22 +126,15 @@ class _CuponRegistrationScreenState extends State<CuponRegistrationScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  SizedBox(
+                  const SizedBox(
                     height: 44,
                     width: 60,
                     child: TextField(
                       decoration: InputDecoration(
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(4),
-                          borderSide: const BorderSide(
-                            color: Color.fromARGB(255, 227, 224, 224),
-                            width: 1,
-                          ),
-                        ),
-                        enabledBorder: const OutlineInputBorder(
+                        enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.grey, width: 1),
                         ),
-                        focusedBorder: const OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.green, width: 1),
                         ),
                       ),
@@ -154,22 +147,15 @@ class _CuponRegistrationScreenState extends State<CuponRegistrationScreen> {
                       width: 6,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 44,
                     width: 90,
                     child: TextField(
                       decoration: InputDecoration(
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(4),
-                          borderSide: const BorderSide(
-                            color: Color.fromARGB(255, 227, 224, 224),
-                            width: 1,
-                          ),
-                        ),
-                        enabledBorder: const OutlineInputBorder(
+                        enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.grey, width: 1),
                         ),
-                        focusedBorder: const OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.green, width: 1),
                         ),
                       ),
@@ -182,22 +168,15 @@ class _CuponRegistrationScreenState extends State<CuponRegistrationScreen> {
                       width: 6,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 44,
                     width: 60,
                     child: TextField(
                       decoration: InputDecoration(
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(4),
-                          borderSide: const BorderSide(
-                            color: Color.fromARGB(255, 227, 224, 224),
-                            width: 1,
-                          ),
-                        ),
-                        enabledBorder: const OutlineInputBorder(
+                        enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.grey, width: 1),
                         ),
-                        focusedBorder: const OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.green, width: 1),
                         ),
                       ),
@@ -210,22 +189,15 @@ class _CuponRegistrationScreenState extends State<CuponRegistrationScreen> {
                       width: 6,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 44,
                     width: 60,
                     child: TextField(
                       decoration: InputDecoration(
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(4),
-                          borderSide: const BorderSide(
-                            color: Color.fromARGB(255, 227, 224, 224),
-                            width: 1,
-                          ),
-                        ),
-                        enabledBorder: const OutlineInputBorder(
+                        enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.grey, width: 1),
                         ),
-                        focusedBorder: const OutlineInputBorder(
+                        focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(color: Colors.green, width: 1),
                         ),
                       ),
