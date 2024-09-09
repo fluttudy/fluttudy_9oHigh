@@ -1,0 +1,4 @@
+enum NotificationIconType {
+  star,
+  coffee;
+}
