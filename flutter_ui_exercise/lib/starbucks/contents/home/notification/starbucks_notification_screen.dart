@@ -84,9 +84,6 @@ class _NotificationScreenState extends State<NotificationScreen> {
           IconButton(
             onPressed: () {
               _showDialog(context);
-              // setState(() {
-              //   items = [];
-              // });
             },
             icon: const Icon(
               CupertinoIcons.trash,

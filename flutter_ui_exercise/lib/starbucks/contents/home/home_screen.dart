@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_exercise/starbucks/contents/home/cupon/cupon_list_screen.dart';
+import 'package:flutter_ui_exercise/starbucks/contents/home/gift/starbucks_gift_screen.dart';
 import 'package:flutter_ui_exercise/starbucks/contents/home/notification/starbucks_notification_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -57,6 +58,26 @@ class HomeScreen extends StatelessWidget {
               ),
               child: const Text(
                 '알림 화면 이동',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context) {
+                    return const StarbucksGiftScreen();
+                  },
+                ));
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.green,
+              ),
+              child: const Text(
+                '선물 화면 이동',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 14,
