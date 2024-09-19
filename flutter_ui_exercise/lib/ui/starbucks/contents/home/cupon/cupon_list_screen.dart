@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/cupon/cupon_registration_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/cupon/cupon_registration_screen.dart';
 
 class CuponListScreen extends StatefulWidget {
   const CuponListScreen({super.key});

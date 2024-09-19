@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/cupon/cupon_list_screen.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/gift/starbucks_gift_screen.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/notification/starbucks_notification_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/cupon/cupon_list_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/gift/starbucks_gift_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/notification/starbucks_notification_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

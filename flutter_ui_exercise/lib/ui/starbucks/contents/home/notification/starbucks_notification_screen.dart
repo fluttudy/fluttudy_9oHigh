@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/notification/notification_icon_type.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/notification/notification_item.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/notification/notification_icon_type.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/notification/notification_item.dart';
 
 class NotificationScreen extends StatefulWidget {
   const NotificationScreen({super.key});

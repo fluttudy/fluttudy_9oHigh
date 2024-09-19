@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/common/nav_indicator.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/signup/common/nav_indicator.dart';
 
 class StarbucksSignupAccount extends StatefulWidget {
   const StarbucksSignupAccount({super.key});

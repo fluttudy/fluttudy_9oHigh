@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/home/home_screen.dart';
-import 'package:flutter_ui_exercise/starbucks/contents/signup/auth/starbucks_signup_auth_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/home/home_screen.dart';
+import 'package:flutter_ui_exercise/ui/starbucks/contents/signup/auth/starbucks_signup_auth_screen.dart';
 
 class StarbucksApp extends StatelessWidget {
   const StarbucksApp({super.key});
