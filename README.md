@@ -19,3 +19,8 @@
 * [[2024.9.8] 홈 화면 - 쿠폰](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/ui/starbucks/documents/home/cupon/starbucks_home_cupon.md)
 * [[2024.9.9] 홈 화면 - 알림](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/ui/starbucks/documents/home/notification/starbucks_home_notification.md)
 * [[2024.9.11] 선물 화면](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/ui/starbucks/documents/home/gift/starbucks_home_gift.md)
+
+## State Management
+
+#### Riverpod
+* [[2024.9.20] 카운터 앱](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/state_management/riverpod/counter_app/counter_app.md)
