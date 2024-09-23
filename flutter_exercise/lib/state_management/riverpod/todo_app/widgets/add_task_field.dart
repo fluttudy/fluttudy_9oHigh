@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/provider/task_provider.dart';
+import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/providers/task_provider.dart';
 
 class AddTaskField extends ConsumerWidget {
   final TextEditingController _controller = TextEditingController();

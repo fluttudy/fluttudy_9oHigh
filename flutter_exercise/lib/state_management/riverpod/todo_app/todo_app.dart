@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/provider/task_provider.dart';
-import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/widget/add_task_field.dart';
+import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/providers/task_provider.dart';
+import 'package:flutter_ui_exercise/state_management/riverpod/todo_app/widgets/add_task_field.dart';
 
 class TodoApp extends ConsumerWidget {
   const TodoApp({super.key});
