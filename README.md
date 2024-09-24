@@ -25,3 +25,4 @@
 #### Riverpod
 * [[2024.9.20] 카운터 앱](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/state_management/riverpod/counter_app/counter_app.md)
 * [[2024.9.22] 투두 앱](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/state_management/riverpod/todo_app)
+* [[2024.9.24] 날씨 앱](https://github.com/fluttudy/fluttudy_9oHigh/blob/main/flutter_exercise/lib/state_management/riverpod/weather_app/weather_app.md)
