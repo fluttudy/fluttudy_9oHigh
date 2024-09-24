@@ -115,7 +115,10 @@
                     ),
                 );
             }
-            
+
             // ...
         }
         ```
+* 구현
+
+    ![riverpod_weather_app-ezgif com-resize](https://github.com/user-attachments/assets/1f6b6aae-c013-498a-a8eb-52466b588937)
