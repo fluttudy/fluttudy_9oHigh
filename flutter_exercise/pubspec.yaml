@@ -38,6 +38,7 @@ dependencies:
   riverpod: ^2.5.1
   flutter_riverpod: ^2.5.1
   http: ^1.2.2
+  google_maps_flutter: ^2.9.0
 
 dev_dependencies:
   flutter_test:
